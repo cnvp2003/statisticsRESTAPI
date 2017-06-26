@@ -1,6 +1,6 @@
 import play.sbt.PlayImport._
 
-name := """scala-play-rest-example"""
+name := """statisticsRESTAPI"""
 
 version := "1.0-SNAPSHOT"
 
@@ -15,4 +15,4 @@ libraryDependencies ++= Seq(
   specs2 % Test
 )
 
-libraryDependencies += "org.mockito" % "mockito-core" % "1.9.5" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
