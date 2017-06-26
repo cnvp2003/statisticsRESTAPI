@@ -1,8 +1,8 @@
 package controllers
 
-import javax.inject.Inject
 
-import com.google.inject.Singleton
+
+import com.google.inject.{Inject, Singleton}
 import model.Transaction
 import play.api.Logger
 import play.api.mvc.{Action, Controller}

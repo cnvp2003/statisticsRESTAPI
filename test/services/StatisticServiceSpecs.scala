@@ -1,12 +1,14 @@
 package services
 
-import javax.inject.Inject
 
+
+import com.google.inject.Inject
 import model.Transaction
 import org.specs2.matcher.Matchers
 
 
-class StatisticsServiceSpecs @Inject() (statisticService: StatisticService) extends FlatSpec with Matchers {
+class StatisticsServiceSpecs @Inject() (statisticService: StatisticService) {
+  //extends FlatSpec with Matchers {
 
 
 /*  "getStatistic" should "return correct Statistics" in {
